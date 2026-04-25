@@ -106,12 +106,4 @@ distributed-task-queue/
 | GET | /stats | Queue depths |
 | GET | /health | Health check |
 
-## Monitoring
 
-- RabbitMQ Management UI: http://localhost:15672 (guest/guest)
-- API Docs: http://localhost:8000/docs
-
-
-- **60-70% latency reduction** using Redis vs direct DB lookup
-- **99%+ message delivery** guarantee with persistent queues
-- Handles **1000 concurrent tasks** with priority routing
