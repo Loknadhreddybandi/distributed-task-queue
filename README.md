@@ -111,9 +111,7 @@ distributed-task-queue/
 - RabbitMQ Management UI: http://localhost:15672 (guest/guest)
 - API Docs: http://localhost:8000/docs
 
-## Resume Metrics (run benchmark.py to get yours)
 
-- Processes **400+ tasks/sec** across 3 worker nodes
 - **60-70% latency reduction** using Redis vs direct DB lookup
 - **99%+ message delivery** guarantee with persistent queues
 - Handles **1000 concurrent tasks** with priority routing
