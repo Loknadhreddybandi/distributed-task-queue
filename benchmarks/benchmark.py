@@ -1,7 +1,4 @@
-"""
-Benchmark script - run this to get REAL metrics for your resume
-Usage: python benchmark.py
-"""
+
 import asyncio
 import aiohttp
 import time
